@@ -1,6 +1,11 @@
 # Flood-Alert-System
 
+![Ultrasonic Circuit](https://user-images.githubusercontent.com/84971685/235322116-564295ad-1ba1-4fb3-bf6f-79d4614202f4.png)
+
+
 Flood alert system with GSM module is the system which is arduino based and deals with the possibility of flood. The circuit of this system consists arduino, GSM module, ultrasonic sensors, LCD display and rectifier. The system activates as soon as the water rises from normal level to danger level. The ultrasonic sensor sends the signal at the speed of 10ms at first to sense the water level and sends the signal to arduino. Arduino is connected with all other parameters. The arduino reads the signal and sends the signal to LCD display and GSM module if the water level is in abnormal condition. The GSM module is a communicative device and used as a method of communication for this project. GSM module works in AT command and does not work in loop. It takes 300 millisecond to operate after receiving a signal from Arduino.
+
+![LCD Circuit](https://user-images.githubusercontent.com/84971685/235322137-efa9b269-4057-4343-b313-d9f478da976e.png)
 
 Objectives
 The main objectives of the project are;
